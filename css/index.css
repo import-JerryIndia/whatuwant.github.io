@@ -5,11 +5,14 @@ html, body
 
 .first-div
 {
-	height: 100vh;
+	height: 90vh;
 	width: 100%;
 	/* background-image: url("firstimage.jpg"); */
-	background-image: url('../images/Blue\ Medical\ Conference\ Events\ Website.png');
-	/* background-color: black; */
+	background-image: url('../images/first-div-index-page.jpg');
+	background-position: center;
+	background-size: cover;
+	
+	background-color: black;
 	color: #fff;
 	align-items: center;
 	justify-content: center;
@@ -23,18 +26,13 @@ html, body
 	/* font-size: medium; */
 }
 
-.first-div-text
+.first-div
 {
-	font-family: 'Quicksand', sans-serif;
-	letter-spacing: 3px;
-	font-size: 80px;
-	/* text-align: center; */
-	vertical-align: middle;
-	line-height: 100vh;
-	/* width: 50%; */
-	flex: 0 0 120px;
+	text-align: left;
+	padding-left: 5%;
+	padding-top: 50vh;
+	
 }
-
 
 
 .second-div
