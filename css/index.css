@@ -37,18 +37,24 @@ html, body
 
 .second-div
 {
-	height: 100vh;
+	min-height: 100vh;
 	width: 100%;
-	/* background-image: url("firstimage.jpg"); */
-	background-image: url('../images/Page\ 3\ index\ page.png');
-	/* background-color: black; */
+	background-image: linear-gradient(#000203,black);
+	background-position: center;
+	background-size: cover;
 	color: #fff;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
 	/* display: flex; */
 }
 
+.card .checked
+{
+	color: darkorange;
+}
+
+.card .icon-space
+{
+	letter-spacing: 3px;
+}
 .footer-text
 {
 	color: #d9d9d9;
